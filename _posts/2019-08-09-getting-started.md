@@ -3,8 +3,8 @@ title: Getting Started
 author: cotes
 date: 2019-08-09 20:55:00 +0800
 categories: [Misc]
-tags: [getting started]
-pin: true
+tags: [misc]
+pin: false
 ---
 
 ## Prerequisites
