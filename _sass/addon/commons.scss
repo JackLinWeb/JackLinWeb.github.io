@@ -706,6 +706,11 @@ mjx-container {
   min-width: auto !important;
 }
 
+.MathJax_SVG_Display {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 /* --- sidebar layout --- */
 
 $sidebar-display: 'sidebar-display';
