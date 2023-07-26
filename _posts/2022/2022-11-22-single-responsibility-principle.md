@@ -1,6 +1,6 @@
 ---
 title: Single-Responsibility Principle (SRP)
-author: Jack Lin
+author: jack
 date: 2022-11-22 20:55:00 +0800
 categories: [blog, software engineering]
 tags: [software engineering]

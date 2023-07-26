@@ -1,6 +1,6 @@
 ---
 title: Exponential Golomb coding
-author: Jack Lin
+author: jack
 date: 2021-01-08 20:55:00 +0800
 categories: [blog, c]
 tags: [c, data structure]

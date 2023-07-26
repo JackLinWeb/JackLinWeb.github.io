@@ -1,6 +1,6 @@
 ---
 title: Send mail from Outlook using SmtpClient
-author: Jack Lin
+author: jack
 date: 2022-11-25 20:55:00 +0800
 categories: [blog, csharp]
 tags: [csharp]
