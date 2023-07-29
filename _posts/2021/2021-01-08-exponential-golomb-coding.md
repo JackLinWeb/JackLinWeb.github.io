@@ -1,5 +1,5 @@
 ---
-title: Exponential Golomb coding
+title: Exponential Golomb Coding
 author: jack
 date: 2021-01-08 20:55:00 +0800
 categories: [blog, c]
