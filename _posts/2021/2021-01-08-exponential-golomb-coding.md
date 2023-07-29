@@ -111,7 +111,7 @@ the encoding steps of $k$ order Exp-Golomb code:
 
 First clone the repo and compile `exp-golomb.c` into `encode`, then link `decode` to `encode`:
 
-```
+```bash
 $ gcc exp-golomb.c -o encode
 $ ln -s encode decode
 

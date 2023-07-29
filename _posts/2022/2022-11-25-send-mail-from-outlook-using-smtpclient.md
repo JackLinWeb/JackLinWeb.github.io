@@ -56,5 +56,4 @@ catch (Exception e)
 
 Note that the letter may be considered spam the first time it is sent, so it will need to be manually moved to the inbox. The letter looks like the following:
 
-
 ![Image](https://raw.githubusercontent.com/blueskyson/image-host/master/2022/smtpclient.png)
