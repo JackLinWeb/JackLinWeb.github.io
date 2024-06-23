@@ -4,8 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-- BS in CSIE of NCKU.  
-- Junior Backend Developer.
+- MS in Computer Science at University of Southern California (2024 AUG - 2026 MAY)
+- Junior Backend Developer at CyberSoft (2022 JUN ~ 2024 MAY)
+- BS in Computer Science & Information Engineering at National Cheng Kung University. (2018 SEP - 2022 JUN)
 
 ## Open Source Contributions
 
