@@ -171,9 +171,23 @@ In our experiment the model had <strong>great gains from epoch[0~20], and contin
 
 <span style="color:red;">Terminating at the 140th epoch , the resulting testing set accuracy is 66%.</span>  The accuracy is lower than VGGNet, but it is a little bit better than human performance.
 
-|                 | Our VGGNet                                  | Paper's VGGNet                                         | ResNet34V2 | SVM  |
-|-----------------|---------------------------------------------|--------------------------------------------------------|------------|------|
-| Testing Accuracy| 72.387852%                                  | 73.28%                                                 | 66%        | 31%  |
-| epoch           | 120                                         | 350                                                    | 140        | X    |
-| fine-tuning     | final 20 epochs with combined training and  | final 50 epochs with combined training and validation  | X          | X    |
-|                 | validation dataset                          | dataset                                                |            |      |
+### Comparison
+
+|                 | Our VGGNet | Paper's VGGNet | ResNet34V2 | SVM  |
+|-----------------|------------|----------------|------------|------|
+| Testing Accuracy| 72.387852% | 73.28%         | 66%        | 31%  |
+| epoch           | 120        | 350            | 140        | X    |
+| fine-tuning     | final 20 epochs with combined training and validation dataset | final 50 epochs with combined training and validation dataset | X          | X    |
+
+## 8. Reference Sources
+
+- [1] Yousif Khaireddin, Zhuofa Chen, “Facial Emotion Recognition: State of the Art Performance on FER2013”, arXiv:2105.03588
+- [2] Roberto Pecoraro, Valerio Basile, Viviana Bono, Sara Gallo, “Local Multi-Head Channel Self-Attention for Facial Expression Recognition”, arXiv:2111.07224
+- [3] Shivam Gupta, “Facial emotion recognition in real-time and static images”, DOI: 10.1109/ICISC.2018.8398861
+- [4] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun, “Identity Mappings in Deep Residual Networks”, arXiv: 1603.05027
+
+Referenced Repositories
+1. Code for the paper "Facial Emotion Recognition: State of the Art Performance on FER2013", https://github.com/usef-kh/fer
+2. Real-time Facial Emotion Detection using deep learning, https://github.com/atulapra/Emotion-detection
+3. ResNet for pytorch, https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py
+
