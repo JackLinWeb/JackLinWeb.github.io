@@ -1,6 +1,6 @@
 ---
 title: Emotion Recognition
-image: /assets/img/emotion-recognition.jpg
+image: /assets/img/emotion-recognition.png
 author: jack
 date: 2022-01-09 20:55:00 +0800
 categories: [python, machine learning]
