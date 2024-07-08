@@ -1,5 +1,6 @@
 ---
 title: Send mail from Outlook using SmtpClient
+image: /assets/img/default-banner.jpg
 author: jack
 date: 2022-11-25 20:55:00 +0800
 categories: [blog, csharp]

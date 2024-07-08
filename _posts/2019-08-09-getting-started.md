@@ -1,5 +1,6 @@
 ---
 title: Getting Started
+image: /assets/img/default-banner.jpg
 author: cotes
 date: 2019-08-09 20:55:00 +0800
 categories: [Misc]

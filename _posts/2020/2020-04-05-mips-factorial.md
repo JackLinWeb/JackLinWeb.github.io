@@ -1,5 +1,6 @@
 ---
 title: Implement factorial using MIPS
+image: /assets/img/default-banner.jpg
 author: jack
 date: 2020-04-05 20:55:00 +0800
 categories: [blog]

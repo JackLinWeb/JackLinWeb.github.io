@@ -1,5 +1,6 @@
 ---
 title: OpenCV Read Images and Separate RGB Channels
+image: /assets/img/default-banner.jpg
 author: jack
 date: 2021-12-24 20:55:00 +0800
 categories: [blog, python]
