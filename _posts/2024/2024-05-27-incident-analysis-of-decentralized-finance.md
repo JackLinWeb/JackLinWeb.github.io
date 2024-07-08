@@ -5,7 +5,7 @@ author: jack
 date: 2024-05-27 20:55:00 +0800
 categories: [blockchain]
 tags: [blockchain]
-math: true
+math: false
 pin: false
 ---
 
