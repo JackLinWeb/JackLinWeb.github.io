@@ -4,9 +4,13 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-- MS in Computer Science at University of Southern California (2024 AUG - 2026 MAY)
-- Junior Backend Developer at CyberSoft (2022 JUN ~ 2024 MAY)
-- BS in Computer Science & Information Engineering at National Cheng Kung University. (2018 SEP - 2022 JUN)
+- MS in Computer Science at University of Southern California (Expected May 2026)
+- Junior Backend Developer at CyberSoft (June 2022 - May 2024)
+- BS in Computer Science & Information Engineering at National Cheng Kung University. (Sept 2018 - June 2022)
+
+<iframe src="{{ site.baseurl }}/assets/pdf/JackLinCV20240714.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: <a href="{{ site.baseurl }}/assets/pdf/JackLinCV20240714.pdf">Download PDF</a>
+</iframe>
 
 ## Open Source Contributions
 
