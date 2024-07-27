@@ -6,7 +6,7 @@ date: 2021-01-08 20:55:00 +0800
 categories: [blog, c]
 tags: [c, data structure]
 math: true
-pin: false
+pin: true
 ---
 
 ## Exponential Golomb Coding

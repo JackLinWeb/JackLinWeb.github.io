@@ -6,7 +6,7 @@ date: 2022-01-09 20:55:00 +0800
 categories: [python, machine learning]
 tags: [python, machine learning]
 math: false
-pin: false
+pin: true
 ---
 
 The project is a fork of [usef-kh/fer](https://github.com/usef-kh/fer). We made an application for detecting user-provided human face image. And we use the code from [atulapra/Emotion-detection](https://github.com/atulapra/Emotion-detection) to implement a real-time camera emotion detector.
