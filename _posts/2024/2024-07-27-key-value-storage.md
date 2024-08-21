@@ -13,7 +13,7 @@ Key Value Storage is an assignment of *CSIE3006 - Operating System* by [Hung-Cha
 
 Now, I am rewriting this assignment in [object-oriented techniques in C](https://dmitryfrank.com/articles/oop_in_c), ensuring clean code and adhering to SOLID principles. There are still a few memory leaks detected in this program, and I am currently working on fixing them.
 
-GitHub repository: [https://github.com/blueskyson/fibdrv](https://github.com/blueskyson/key-value-storage)
+GitHub repository: [https://github.com/blueskyson/key-value-storage](https://github.com/blueskyson/key-value-storage)
 
 ## Program Development: Modules
 
