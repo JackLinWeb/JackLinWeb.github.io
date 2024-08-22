@@ -9,7 +9,7 @@ math: false
 pin: true
 ---
 
-The original paper is included in IEEE ICBC 2024 proceeding.
+The original paper is included in IEEE ICBC 2024 proceeding, view or cite it: [https://ieeexplore.ieee.org/document/10634335](https://ieeexplore.ieee.org/document/10634335).
 
 Preprint PDF:
 
