@@ -194,7 +194,7 @@ $$\begin{aligned}
 & = 3*2^k+\frac{k^2}{2}-\frac{k}{2}+1 \\
 \end{aligned}$$
 
-$$\text{Amortized Cost}=\lim_{k\rarr\infin}\frac{3*2^k+\frac{k^2}{2}-\frac{k}{2}+1}{2^k}=3=O(1)$$
+$$\text{Amortized Cost}=\lim_{k→∞}\frac{3*2^k+\frac{k^2}{2}-\frac{k}{2}+1}{2^k}=3=O(1)$$
 
 ---
 
@@ -226,4 +226,4 @@ $$
 =\frac{n^2}{2}+n(c+\frac{1}{2})
 $$
 
-$$\text{Amortized Cost}=\lim_{n\rarr\infin}\frac{\frac{n^2}{2}+n(c+\frac{1}{2})}{n}=\frac{n}{2} + c=O(n)$$
+$$\text{Amortized Cost}=\lim_{n→∞}\frac{\frac{n^2}{2}+n(c+\frac{1}{2})}{n}=\frac{n}{2} + c=O(n)$$
