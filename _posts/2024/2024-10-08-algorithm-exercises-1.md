@@ -101,13 +101,11 @@ int BFS(source, G):
 ---
 
 Given an unweighted and undirected graph $G = (V, E)$ and an edge $e ∈ E$. Construct an algorithm to determine whether the graph $G$ has a cycle containing that specific given edge $e$. Also, determine the time complexity of your algorithm and justify your answer.  
-**Note**: To become eligible for full credits on this problem, the running time of your algorithm should be bounded by $O(|V| + |E|)$.
+**Note**: To become eligible for full credits on this problem, the running time of your algorithm should be bounded by $O(\lvert V \rvert + \lvert E \rvert)$.
 
 Solution:
 
-Denote nodes form $e$ as $x$ and $y$, i.e. $e=(x,y)$. We choose $x$ as the source and then perform BFS **without** traversing $e$. If we find a route reaching $y$, we prove there is a cycle. The time complexity is the same as pure BFS's, bounded by $O(|V| + |E|)$.
-
-Pseudocode:
+Denote nodes form $e$ as $x$ and $y$, i.e. $e=(x,y)$. We choose $x$ as the source and then perform BFS **without** traversing $e$. If we find a route reaching $y$, we prove there is a cycle. The time complexity is the same as pure BFS's, bounded by $O(\lvert V \rvert + \lvert E \rvert)$. Pseudocode:
 
 ```csharp
 bool detectCycle(G, e):
@@ -136,9 +134,7 @@ A directed graph $G = (V, E)$ is singly connected if $u⇝v$ implies that $G$ co
 
 Solution:
 
-Run DFS from each node in the graph as the source. Track the visit count of each node during the traversal. If the source node is visited $3$ times (counting the DFS initialization as $1$), or any other node is visited $2$ times, we found $2$ paths from the source to the node. Thus, the graph is determined to not be singly connected. Otherwise, the graph is singly connected if we can't visit the source node for $3$ times or any other node for $2$ times.The time complexity is $O(|V|*(|V| + |E|))$.
-
-Pseudocode:
+Run DFS from each node in the graph as the source. Track the visit count of each node during the traversal. If the source node is visited $3$ times (counting the DFS initialization as $1$), or any other node is visited $2$ times, we found $2$ paths from the source to the node. Thus, the graph is determined to not be singly connected. Otherwise, the graph is singly connected if we can't visit the source node for $3$ times or any other node for $2$ times.The time complexity is $O(\lvert V \rvert *(\lvert V \rvert + \lvert E \rvert))$. Pseudocode:
 
 ```csharp
 bool isSinglyConnected(G):
