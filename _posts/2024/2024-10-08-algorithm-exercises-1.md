@@ -71,7 +71,9 @@ Given an unweighted, undirected, and connected graph $G = (V, E)$. Construct an 
 
 Solution:
 
-Run BFS from each node as the source. Update the max distance that BFS reached in each run. Return the max distance as the diameter of the graph. The time complexity is $O(|V|*(|V|+|E|))$. Pseudocode:
+Run BFS from each node as the source. Update the max distance that BFS reached in each run. Return the max distance as the diameter of the graph. The time complexity is $O(|V|*(|V|+|E|))$.
+
+Pseudocode:
 
 ```csharp
 int findDiameter(G):
@@ -105,7 +107,9 @@ Given an unweighted and undirected graph $G = (V, E)$ and an edge $e ∈ E$. Con
 
 Solution:
 
-Denote nodes form $e$ as $x$ and $y$, i.e. $e=(x,y)$. We choose $x$ as the source and then perform BFS **without** traversing $e$. If we find a route reaching $y$, we prove there is a cycle. The time complexity is the same as pure BFS's, bounded by $O(|V| + |E|)$. Pseudocode:
+Denote nodes form $e$ as $x$ and $y$, i.e. $e=(x,y)$. We choose $x$ as the source and then perform BFS **without** traversing $e$. If we find a route reaching $y$, we prove there is a cycle. The time complexity is the same as pure BFS's, bounded by $O(|V| + |E|)$.
+
+Pseudocode:
 
 ```csharp
 bool detectCycle(G, e):
@@ -134,7 +138,9 @@ A directed graph $G = (V, E)$ is singly connected if $u⇝v$ implies that $G$ co
 
 Solution:
 
-Run DFS from each node in the graph as the source. Track the visit count of each node during the traversal. If the source node is visited $3$ times (counting the DFS initialization as $1$), or any other node is visited $2$ times, we found $2$ paths from the source to the node. Thus, the graph is determined to not be singly connected. Otherwise, the graph is singly connected if we can't visit the source node for $3$ times or any other node for $2$ times.The time complexity is $O(|V|*(|V| + |E|))$. Pseudocode:
+Run DFS from each node in the graph as the source. Track the visit count of each node during the traversal. If the source node is visited $3$ times (counting the DFS initialization as $1$), or any other node is visited $2$ times, we found $2$ paths from the source to the node. Thus, the graph is determined to not be singly connected. Otherwise, the graph is singly connected if we can't visit the source node for $3$ times or any other node for $2$ times.The time complexity is $O(|V|*(|V| + |E|))$.
+
+Pseudocode:
 
 ```csharp
 bool isSinglyConnected(G):
@@ -163,9 +169,9 @@ bool DFS(source, v, visitCount, G):
 According to the Topological Sort for DAG described in Lecture 1, given
 the graph below
 
-<p align="center">
+<div align="center">
     <img src="https://raw.githubusercontent.com/blueskyson/image-host/refs/heads/master/2024/algo2.png" height=300 />
-</p>
+</div>
 
 (a) Please find one possible topological order of the graph in Figure 1.  
 (b) In addition, could you find all the possible topological orders?
@@ -174,9 +180,10 @@ Solution:
 
 (a) A→B→C→E→D→G→F  
 (b) Based on backtracking combined with Kahn's algorithm, 7 orders were found.
-<p align="center">
+
+<div align="center">
     <img src="https://raw.githubusercontent.com/blueskyson/image-host/refs/heads/master/2024/algo3.jpg" height=300 />
-</p>
+</div>
 
 ---
 
