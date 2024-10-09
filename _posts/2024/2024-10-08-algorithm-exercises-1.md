@@ -71,9 +71,7 @@ Given an unweighted, undirected, and connected graph $G = (V, E)$. Construct an 
 
 Solution:
 
-Run BFS from each node as the source. Update the max distance that BFS reached in each run. Return the max distance as the diameter of the graph. The time complexity is $O(|V|*(|V|+|E|))$.
-
-Pseudocode:
+Run BFS from each node as the source. Update the max distance that BFS reached in each run. Return the max distance as the diameter of the graph. The time complexity is $O(\lvert V \rvert*(\lvert V \rvert + \lvert E \rvert))$. Pseudocode:
 
 ```csharp
 int findDiameter(G):
