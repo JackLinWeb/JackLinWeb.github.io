@@ -2,7 +2,7 @@
 title: Algorithm Exercises 2
 image: /assets/img/default-banner.jpg
 author: jack
-date: 2024-10-19 20:55:00 +0800
+date: 2024-10-08 21:55:00 +0800
 categories: [notes, algorithms]
 tags: [algorithms]
 math: true
