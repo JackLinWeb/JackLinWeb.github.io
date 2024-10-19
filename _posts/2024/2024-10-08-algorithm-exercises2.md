@@ -122,7 +122,7 @@ Use Dijkstra's algorithm to find the shortest path distances from $s$ to all oth
 
 For each candidate road $(u, v)$ in $C$: obtain the shortest path distances of $s⇝u→v⇝t$ and $s⇝v→u⇝t$, which can be calculated by $d_s(u)+w(u,v)+d_t(v)$ and $d_s(v)+w(v,u)+d_t(u)$ respectively. We update the shortest path distance if we find a larger decrease. After all iterations, return the candidate pair that results in the maximum decrease in the driving distance.
 
-Time complexity: Dijkstra's algorithm with binary heap takes $O((\lvert V \rvert+ \lvert E \rvert)\log V)$. Iterating through candidate roads takes $O(2*\lvert C \rvert)$. So the total time complexity is $O(2(\lvert V \rvert+\lvert E \rvert)\log V + 2*\lvert C \rvert)=O((\lvert V \rvert+\lvert E \rvert)\log V)$.
+Time complexity: Dijkstra's algorithm with binary heap takes $O((\lvert V \rvert+ \lvert E \rvert)\log V)$. Iterating through candidate roads takes $O(2 * \lvert C \rvert)$. So the total time complexity is $O(2(\lvert V \rvert+\lvert E \rvert)\log V + 2 * \lvert C \rvert)=O((\lvert V \rvert+\lvert E \rvert)\log V)$.
 
 Pseudocode:
 
