@@ -2,7 +2,7 @@
 title: Build a Kubernetes Cluster on Ubuntu 24
 image: /assets/img/default-banner.jpg
 author: jack
-date: 2025-05-27 20:55:00 +0800
+date: 2025-06-01 20:55:00 +0800
 categories: [blog, linux]
 tags: [linux]
 math: false
