@@ -1,5 +1,5 @@
 ---
-title: Build a Kubernetes Cluster on Ubuntu 24
+title: Booting a Minimal Linux Kernel on Ubuntu 24
 image: /assets/img/default-banner.jpg
 author: jack
 date: 2025-07-09 20:55:00 +0800
