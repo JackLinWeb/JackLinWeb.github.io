@@ -6,7 +6,7 @@ date: 2024-05-27 20:55:00 +0800
 categories: [blockchain]
 tags: [blockchain]
 math: false
-pin: true
+pin: false
 ---
 
 The original paper is included in IEEE ICBC 2024 proceeding, view or cite it: [https://ieeexplore.ieee.org/document/10634335](https://ieeexplore.ieee.org/document/10634335).

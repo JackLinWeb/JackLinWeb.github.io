@@ -1,5 +1,5 @@
 ---
-title: Booting a Minimal Linux Kernel on Ubuntu 24
+title: Booting a Minimal Linux Kernel on QEMU Ubuntu 24
 image: /assets/img/default-banner.jpg
 author: jack
 date: 2025-07-09 20:55:00 +0800
@@ -9,7 +9,7 @@ math: false
 pin: false
 ---
 
-This post documents my process of manually downloading, configuring, and compiling Linux kernel (v6.12) on an Ubuntu 24.04 machine.
+This post documents my steps of manually downloading, configuring, and compiling Linux kernel (v6.12) on an Ubuntu 24.04 machine.
 
 ## Installing Required Tools
 
