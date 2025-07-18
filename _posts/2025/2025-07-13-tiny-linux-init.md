@@ -9,7 +9,7 @@ math: false
 pin: false
 ---
 
-This post documents how I wrote and compiled a minimal `init` program in C, built a simple `initramfs`, and successfully booted it using a custom Linux kernel v6.12 on Ubuntu 24.04 via QEMU. Before you begin, make sure you’ve already built your own Linux kernel as shown in [this post](/posts/boot-tiiny-linux).
+This post documents how I wrote and compiled a minimal `init` program in C, built a simple `initramfs`, and successfully booted it using a custom Linux kernel v6.12 on Ubuntu 24.04 via QEMU. Before you begin, make sure you’ve already built your own Linux kernel as shown in [this post](/posts/boot-tiny-linux).
 
 ## Create a Minimal C Project
 
